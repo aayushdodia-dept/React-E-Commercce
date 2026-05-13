@@ -114,6 +114,7 @@ function App() {
         <SignInModal isOpen={isSignInOpen} toggleSignIn={toggleSignIn} />
         <Cart isOpen={isCartOpen} toggleCart={toggleCart} />
         <Toast message={toast.message} show={toast.show} onHide={hideToast} />
+        <Toast message={toast.message} show={toast.show} onHide={hideToast} />
         <Toast
           message={wishlistToast.message}
           show={wishlistToast.show}
